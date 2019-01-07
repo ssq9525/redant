@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="corner_Size" format="integer"/>
+        <attr name="normal_Color" format="color|reference"/>
+        <attr name="press_Color" format="color|reference"/>
+    </declare-styleable>
+</resources>

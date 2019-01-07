@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".login.LoginFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/ssid_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x80"
+        android:layout_marginRight="@dimen/x50"
+        android:layout_marginLeft="@dimen/x50">
+        <TextView
+            android:id="@+id/ssid_tv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x20"
+            android:gravity="bottom"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/black"
+            />
+        <ImageView
+            android:id="@+id/net_iv"
+            android:layout_width="@dimen/x15"
+            android:layout_height="@dimen/x15"
+            android:src="@mipmap/wifi"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/line2"
+        android:layout_below="@+id/ssid_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_marginRight="@dimen/x50"
+        android:textColor="@color/black"
+        android:background="@color/blue"/>
+
+    <RelativeLayout
+        android:id="@+id/pwd_rl"
+        android:layout_below="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:layout_marginTop="@dimen/x5"
+        android:layout_marginRight="@dimen/x50"
+        android:layout_marginLeft="@dimen/x50">
+        <EditText
+            android:id="@+id/pwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:textSize="@dimen/text_small"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:hint="@string/Password"
+            />
+        <ImageView
+            android:id="@+id/pwd_iv"
+            android:layout_width="@dimen/x20"
+            android:layout_height="@dimen/x20"
+            android:scaleType="fitCenter"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/unselecty"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/line3"
+        android:layout_below="@+id/pwd_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_marginRight="@dimen/x50"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/x5"
+        android:background="@color/blue"/>
+
+    <TextView
+        android:id="@+id/loginpwdhint_tv"
+        android:layout_below="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x20"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_marginRight="@dimen/x50"
+        android:textColor="@color/gray"
+        android:layout_marginTop="@dimen/x5"
+        android:text="@string/loginpwd_hint"
+        android:textSize="@dimen/text_midlle"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_below="@+id/loginpwdhint_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x30"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_marginRight="@dimen/x50"
+        android:text="@string/login_pwd"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_small"
+        android:layout_marginTop="@dimen/x20"/>
+
+
+    <com.xby.soft.common.utils.RoundTextView
+        android:id="@+id/round_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:layout_marginBottom="@dimen/x80"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_marginRight="@dimen/x50"
+        android:text="@string/login_title"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_midlle"
+        app:normal_Color="@color/blue1"
+        app:press_Color="@color/colorPrimaryDark"
+        app:corner_Size="14"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

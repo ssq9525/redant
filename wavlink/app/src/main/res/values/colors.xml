@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_blue1">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+
+
+
+    <!-- 默认字体颜色   一级字体颜色 -->
+    <color name="text_default">#323232</color>
+    <!-- 2级字体颜色 -->
+    <color name="text_default2">#646464</color>
+    <!-- 2级字体颜色 -->
+    <color name="text_default3">#999999</color>
+    <!-- 2级字体颜色 -->
+    <!-- 默认分割线 -->
+    <color name="text_default_driver">#DCDCDC</color>
+
+    <!-- 蓝色 -->
+    <color name="blue_bak">#0092EA</color>
+    <color name="blue">#0266ca</color>
+    <color name="blue1">#0266ca</color>
+    <color name="blue2">#087df0</color>
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 红色 -->
+    <color name="red">#f47d7d</color>
+    <!-- 灰色 -->
+    <color name="zongse">#E2AF3A</color>
+    <color name="gray">#969696</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_green">#9CCC65</color>
+
+    <!-- 黑色 字体-->
+    <!-- 灰色 字体 -->
+    <color name="text_gray">#e5e5e5</color>
+    <color name="light_gray">#99a4b7</color>
+    <!-- 整体背景色  浅灰色 -->
+    <color name="gray_bg">#ebebeb</color>
+    <!-- 头部背景色  浅灰色 -->
+    <!-- 标题栏浅灰色 -->
+    <!-- 分割线  浅灰色 -->
+    <color name="gray_line">#dcdcdc</color>
+    <!-- 分割线  浅浅浅灰色 -->
+
+    <!-- action -->
+    <!-- 黑色 -->
+    <!-- 灰色 -->
+    <color name="action_item_gray">#e5e5e5</color>
+    <!-- 分割线 -->
+    <color name="action_item_driver">#eeeeee</color>
+
+    <color name="line_driver">#e2e2e2</color>
+    <!-- 图表刻度颜色 -->
+    <!-- 网格水平线 颜色 -->
+
+    <!-- 健身中心 -->
+    <!-- 黑色背景颜色-->
+    <!-- 黑色 字体-->
+    <!-- 灰色 字体 -->
+
+    <!-- com.inqbarna.tablefixheaders -->
+    <!-- 原先为#80000000，为了隐藏shadow设置为透明 -->
+
+    <!-- 半透明 -->
+    <!-- 图片显示的背景透明度 -->
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+
+    <color name="black">#000000</color>
+    <!-- 主题色 -->
+    <color name="main_bg">#EBEBEC</color>
+    <!--主色0.8透明度 -->
+    <!-- 字体颜色 -->
+    <color name="font_light_light">#9b9b9b</color>
+    <color name="font_dark">#313131</color>
+
+    <!-- actionbar 按下的颜色 -->
+    <!-- actionbar 按下的颜色 -->
+    <!-- 分割线 -->
+    <color name="driver_color">#D0D0D0</color>
+    <!-- 边框线 -->
+    <color name="border_color">#D0D0D0</color>
+
+    <!-- 舒杰 -->
+    <!-- 70%透明 -->
+    <color name="color_dark_grey">#CFCFCF</color>
+    <!-- 我的     关注栏的背景色 -->
+</resources>

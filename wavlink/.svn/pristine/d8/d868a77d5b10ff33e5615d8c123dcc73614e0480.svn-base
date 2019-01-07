@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/blue">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar_layout"
+            android:layout_width="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/tool_bar"
+                android:layout_width="match_parent"
+                android:background="@color/blue1"
+                android:layout_height="@dimen/y30">//?attr/actionBarSize
+                <ImageView
+                    android:id="@+id/left_title_iv"
+                    android:layout_width="@dimen/x25"
+                    android:layout_height="@dimen/x25"
+                    android:scaleType="fitCenter"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/x5"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginRight="@dimen/x15"/>
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:text="title"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/title_iv"
+                    android:layout_width="@dimen/x30"
+                    android:layout_height="@dimen/y30"
+                    android:scaleType="center"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/x5"
+                    android:layout_gravity="right|center_vertical" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/ContentView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</LinearLayout>
